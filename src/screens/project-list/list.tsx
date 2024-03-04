@@ -14,8 +14,6 @@ interface ListProps {
 }
 
 export const List = ({ list, users }: ListProps) => {
-  console.log(list, users);
-
   return (
     <table>
       <thead>
